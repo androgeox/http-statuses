@@ -1,0 +1,95 @@
+app:
+  statuses:
+
+    # 1×× Informational
+    - code: 100
+      description: 'Continue'
+    - code: 101
+      description: 'Switching Protocols'
+    - code: 102
+      description: 'Processing'
+
+    # 2×× Success
+    - code: 200
+      description: 'OK'
+    - code: 201
+      description: 'Created'
+    - code: 202
+      description: 'Accepted'
+    - code: 203
+      description: 'Non-authoritative Information'
+    - code: 204
+      description: 'No Content'
+    - code: 205
+      description: 'Reset Content'
+    - code: 206
+      description: 'Partial Content'
+    - code: 207
+      description: 'Multi-Status'
+    - code: 208
+      description: 'Already Reported'
+    - code: 226
+      description: 'IM Used'
+
+    # 3×× Redirection
+    - code: 300
+      description: 'Multiple Choices'
+    - code: 301
+      description: 'Moved Permanently'
+    - code: 302
+      description: 'Found'
+    - code: 303
+      description: 'See Other'
+    - code: 304
+      description: 'Not Modified'
+    - code: 305
+      description: 'Use Proxy'
+    - code: 307
+      description: 'Temporary Redirect'
+    - code: 308
+      description: 'Permanent Redirect'
+
+#      4×× Client Error
+#      400 Bad Request
+#      401 Unauthorized
+#      402 Payment Required
+#      403 Forbidden
+#      404 Not Found
+#      405 Method Not Allowed
+#      406 Not Acceptable
+#      407 Proxy Authentication Required
+#      408 Request Timeout
+#      409 Conflict
+#      410 Gone
+#      411 Length Required
+#      412 Precondition Failed
+#      413 Payload Too Large
+#      414 Request-URI Too Long
+#      415 Unsupported Media Type
+#      416 Requested Range Not Satisfiable
+#      417 Expectation Failed
+#      418 I'm a teapot
+#      421 Misdirected Request
+#      422 Unprocessable Entity
+#      423 Locked
+#      424 Failed Dependency
+#      426 Upgrade Required
+#      428 Precondition Required
+#      429 Too Many Requests
+#      431 Request Header Fields Too Large
+#      444 Connection Closed Without Response
+#      451 Unavailable For Legal Reasons
+#      499 Client Closed Request
+#      5×× Server Error
+#      500 Internal Server Error
+#      501 Not Implemented
+#      502 Bad Gateway
+#      503 Service Unavailable
+#      504 Gateway Timeout
+#      505 HTTP Version Not Supported
+#      506 Variant Also Negotiates
+#      507 Insufficient Storage
+#      508 Loop Detected
+#      510 Not Extended
+#      511 Network Authentication Required
+#      599 Network Connect Timeout Error
